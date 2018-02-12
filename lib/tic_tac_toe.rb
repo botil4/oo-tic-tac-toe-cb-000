@@ -61,4 +61,20 @@ class TicTacToe
     end
   end
 
+  def full?
+    @board.any?("X" || "O")
+  end
+
+  def draw?
+
+  end
+
+  def over?
+
+  end
+
+  def winner
+
+  end
+
 end
