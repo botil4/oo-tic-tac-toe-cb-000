@@ -81,7 +81,7 @@ class TicTacToe
     until over?
       turn
     end
-    draw? ? puts "Cat's game" : puts "Congratulations #{winner}"
+    draw? ? (puts "Cat's game") : puts "Congratulations #{winner}"
   end
 
 end
