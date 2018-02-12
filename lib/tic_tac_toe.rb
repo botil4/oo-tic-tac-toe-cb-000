@@ -56,7 +56,7 @@ class TicTacToe
 
   def won?
     WIN_COMBINATIONS.find do |combo|
-      combo.all? {|i| @board[i] == "X"}
+      combo.all? {|i| @board[i] == "X"} ||
       combo.all? {|i| @board[i] == "O"}
     end
   end
