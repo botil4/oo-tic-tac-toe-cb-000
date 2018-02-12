@@ -23,7 +23,7 @@ class TicTacToe
   end
 
   def input_to_index
-    input gets.strip
+    input = gets.strip
     @index = parseInt(input) - 1
   end
 
